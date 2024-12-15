@@ -10,7 +10,7 @@ const audio = document.querySelector('audio');
 
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love You Too :)';
-    question.style.color = "#EE4B2B";
+    question.style.color = "#7d2ae8";
     videoCon.style.display = "block";
     audio.play();
 });
